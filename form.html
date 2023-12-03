@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <!-- Emojies code -->
+     <!-- &#128516
+    &#129525 -->
+    
+    <form action="" method="post" target="_self" autocomplete="off">
+        <fieldset style="background-color: rgb(255, 0, 183);" >
+            <legend>form</legend>
+        <table bgcolor="orange">
+            <tr>
+                <td>
+                    <label for="FN">first name</label>
+                </td>
+                <td>
+                    <input type="text" name="FN" id="FN" placeholder="first name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="LN">Second name</label>
+                </td>
+                <td>
+                    <input type="text" name="LN" id="LN" placeholder="Second name" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="NO">Number</label>
+                </td>
+                <td>
+                    <input type="tel" name="Number" id="NO" placeholder="Number" required>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Email-ID</label>
+                </td>
+                <td>
+                    <input type="Email" name="Email" id="Email" placeholder="email-ID" required>
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td>
+                    <label for="">Address</label>
+                </td>
+                <td>
+                    <textarea name="Address" id="" cols="20" rows="10"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">DOB</label>
+                </td>
+                <td>
+                    <input type="date" name="DOB" id="DOB">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">password</label>
+                </td>
+                <td>
+                    <input type="password" name="password" id="pass">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="gen">Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="gen" id="gen" value="male">male 
+                    <input type="radio" name="gen" id="gen" value="female">female
+                    <input type="radio" name="gen" id="gen" value="others">others
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td>
+                    <label for="">sports</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="spo" id="spo">cricket
+                    <input type="checkbox" name="spo" id="spo">Footboll
+                    <input type="checkbox" name="spo" id="spo">Hockey
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="file">Choose a file</label>
+                </td>
+                <td>
+                    <input type="file" name="file name" id="file">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="place"> place</label>
+                </td>
+                <td>
+                    <select name="place" id="place">
+                        <option value="India">India</option>
+                        <option value="Uganda">Uganda</option>
+                         <option value="England">England</option>
+                       <option value="America" selected>America</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">Uplode</label>
+                </td>
+                <td>
+                    <input type="image" src="https://images.unsplash.com/photo-1679312995862-b6a43db982d6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDEzMHxhZXU2ckwtajZld3x8ZW58MHx8fHx8&auto=format&fit=crop&w=500&q=60" name="" id="">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="col">Choose an color</label>
+                </td>
+                <td>
+                    <input type="color" name="col" id="col">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="hid">Hidden</label>
+                </td>
+                <td>
+                    <input type="hidden" name="hid" id="hid">
+                </td>
+            </tr>
+
+            <tr>
+                <td> <label for="">Select an range</label> </td>
+                <td> <input type="range" name="" id=""> </td>
+            </tr>
+
+            <tr>
+                <td> <label for="ser">search</label></td>
+                <td> <input type="search" name="ser" id="ser"></td>
+            </tr>
+
+            <tr>
+                <td> <label for="url">Enter the URL</label></td>
+                <td><input type="url" name="url" id="url"></td>
+            </tr>
+
+            <tr>
+                <td>
+                     <label for="tech">Technologies</label> 
+                </td>
+                <td>
+                    <input type="techs" name="tech" id="tech">
+                
+                    <datalist id="techs">
+                        <option value="html"></option>
+                        <option value="css"></option>
+                        <option value="js"></option>
+                        <option value="React js"></option>
+                        <option value="node js"></option>
+                    </datalist>
+                </td>
+            </tr>
+
+            
+            <tr>
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
+                <td>
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+
+           
+
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>
